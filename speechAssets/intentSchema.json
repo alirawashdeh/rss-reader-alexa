@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "intent": "AddItem",
+      "slots": [
+        {
+          "name": "Item",
+          "type": "SHOPPING_LIST_ITEMS"
+        },
+        {
+          "name": "List",
+          "type": "LISTS"
+        }
+      ]
+    },
+    {
+      "intent": "ListContents",
+      "slots": [
+        {
+          "name": "List",
+          "type": "LISTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetLists"
+    }
+  ]
+}
