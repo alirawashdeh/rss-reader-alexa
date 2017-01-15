@@ -33,7 +33,7 @@ Make a note of the ARN for your Lambda function and enter it in your Alexa Skill
 
 Once deployed, you can say things like:
 - "Alexa, ask RSS Reader for the technology news"
-- "Alexa, tell RSS Reader to play the local news"
+- "Alexa, tell RSS Reader to play the local news" - note: this will play Northern Ireland news by default
 - "Alexa, ask RSS Reader for the front page news"
 - "Alexa, ask RSS Reader for the world news"
 
