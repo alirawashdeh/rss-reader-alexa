@@ -36,6 +36,7 @@ Once deployed, you can say things like:
 - "Alexa, tell RSS Reader to play the local news" - note: this will play Northern Ireland news by default
 - "Alexa, ask RSS Reader for the front page news"
 - "Alexa, ask RSS Reader for the world news"
+
 It also works for Business, Politics, Science, Entertainment, Education, Health feeds.
 
 # Credits
