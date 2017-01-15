@@ -1,4 +1,7 @@
 # RSS Reader for Alexa
+
+[![RSS Reader for Alexa Video](https://img.youtube.com/vi/rS3Km9BU-_c/0.jpg)](https://www.youtube.com/watch?v=rS3Km9BU-_c)
+
 An Alexa Skill that fetches headlines from various BBC News RSS feeds. For example, "Alexa, ask RSS Reader for the technology news"
 
 Note: This skill uses the Alexa Skills Kit - intended for basic custom skills. It doesn't use the [Alexa Flash Briefing Skills API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-flash-briefing-skill-api) which, at the time of writing, [doesn't work in the UK region](https://forums.developer.amazon.com/questions/53028/uk-how-to-test-my-flash-briefing-skill.html).
