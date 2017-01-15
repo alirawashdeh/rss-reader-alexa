@@ -39,19 +39,42 @@ RssReader.prototype.intentHandlers = {
     var url;
     if(intent.slots && intent.slots.FeedName)
     {
-      switch (intent.slots.FeedName.value) {
+      switch (intent.slots.FeedName.value.toLowerCase()) {
         case "world":
         url = "http://feeds.bbci.co.uk/news/world/rss.xml?edition=uk";
         break;
         case "front page":
+        case "uk":
+        case "main":
         url = "http://feeds.bbci.co.uk/news/rss.xml?edition=uk";
         break;
         case "technology":
+        case "tech":
         url = "http://feeds.bbci.co.uk/news/technology/rss.xml?edition=uk";
         break;
         case "local":
+        case "northern ireland":
         url = "http://feeds.bbci.co.uk/news/northern_ireland/rss.xml?edition=uk";
         break;
+        case "business":
+        url = "http://feeds.bbci.co.uk/news/business/rss.xml?edition=uk";
+        break;
+        case "politics":
+        url = "http://feeds.bbci.co.uk/news/politics/rss.xml?edition=uk";
+        break;
+        case "health":
+        url = "http://feeds.bbci.co.uk/news/health/rss.xml?edition=uk";
+        break;
+        case "education":
+        url = "http://feeds.bbci.co.uk/news/education/rss.xml?edition=uk";
+        break;
+        case "science":
+        url = "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml?edition=uk";
+        break;
+        case "entertainment":
+        url = "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml?edition=uk";
+        break;
+
         default:
         response.tellWithCard("Unable to understand " + intent.slots.FeedName.value, "BBC News RSS Reader", "BBC News RSS Reader");
         return;

@@ -1,5 +1,5 @@
-# rss-reader-alexa
-An Alexa Skill that fetches headlines from various BBC RSS feeds.
+# RSS Reader for Alexa
+An Alexa Skill that fetches headlines from various BBC News RSS feeds.
 
 Note: This skill uses the Alexa Skills Kit - intended for basic custom skills. It doesn't use the [Alexa Flash Briefing Skills API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-flash-briefing-skill-api) which, at the time of writing, [doesn't work in the UK region](https://forums.developer.amazon.com/questions/53028/uk-how-to-test-my-flash-briefing-skill.html).
 
@@ -36,6 +36,7 @@ Once deployed, you can say things like:
 - "Alexa, tell RSS Reader to play the local news" - note: this will play Northern Ireland news by default
 - "Alexa, ask RSS Reader for the front page news"
 - "Alexa, ask RSS Reader for the world news"
+It also works for Business, Politics, Science, Entertainment, Education, Health feeds.
 
 # Credits
 
