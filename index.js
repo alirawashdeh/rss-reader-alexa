@@ -76,13 +76,13 @@ RssReader.prototype.intentHandlers = {
         break;
 
         default:
-        response.tellWithCard("Unable to understand " + intent.slots.FeedName.value, "BBC News RSS Reader", "BBC News RSS Reader");
+        response.tellWithCard("Unable to understand " + intent.slots.FeedName.value, "RSS Headlines", "Couldn't understand " + intent.slots.FeedName.value);
         return;
       }
     }
     else
     {
-      response.tellWithCard("Unable to understand that request", "BBC News RSS Reader", "BBC News RSS Reader");
+      response.tellWithCard("Unable to understand that request", "RSS Headlines", "Couldn't understand the request");
       return;
     }
 
@@ -105,7 +105,7 @@ RssReader.prototype.intentHandlers = {
         type: AlexaSkill.speechOutputType.SSML
       };
 
-      response.tellWithCard(ssmlOutput, "BBC News RSS Reader", "BBC News RSS Reader");
+      response.tellWithCard(ssmlOutput, "RSS Headlines", "Reading headlines from: " + parsed.feed.title);
     });
 
   },
