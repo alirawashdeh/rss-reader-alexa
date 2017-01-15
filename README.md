@@ -1,5 +1,7 @@
 # RSS Reader for Alexa
 
+![RSS Reader for Alexalogo](/alexa-rss-small.jpg)
+
 [![RSS Reader for Alexa Video](https://img.youtube.com/vi/rS3Km9BU-_c/0.jpg)](https://www.youtube.com/watch?v=rS3Km9BU-_c)
 
 An Alexa Skill that fetches headlines from various BBC News RSS feeds. For example, "Alexa, ask RSS Reader for the technology news"
