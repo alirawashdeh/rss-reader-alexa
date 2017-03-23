@@ -1,29 +1,13 @@
 {
   "intents": [
     {
-      "intent": "AddItem",
+      "intent": "GetBBCNews",
       "slots": [
         {
-          "name": "Item",
-          "type": "SHOPPING_LIST_ITEMS"
-        },
-        {
-          "name": "List",
-          "type": "LISTS"
+          "name": "FeedName",
+          "type": "ListOfFeeds"
         }
       ]
-    },
-    {
-      "intent": "ListContents",
-      "slots": [
-        {
-          "name": "List",
-          "type": "LISTS"
-        }
-      ]
-    },
-    {
-      "intent": "GetLists"
     }
   ]
 }

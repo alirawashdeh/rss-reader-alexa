@@ -1,32 +1,11 @@
-AddItem add {Item}
-AddItem add {Item} to my {List} list
-AddItem add {Item} on my {List} list
-AddItem add {Item} on the {List} list
-AddItem add {Item} onto the {List} list
-AddItem add {Item} onto my {List} list
-AddItem add {Item} in my {List} list
-AddItem add {Item} on the {List} list
-AddItem add {Item} in the {List} list
-AddItem add {Item} onto the {List} list
-AddItem put {Item} on my {List} list
-AddItem put {Item} on the {List} list
-AddItem put {Item} onto the {List} list
-AddItem put {Item} onto my {List} list
-AddItem put {Item} in my {List} list
-AddItem put {Item} on the {List} list
-AddItem put {Item} in the {List} list
-AddItem put {Item} onto the {List} list
-ListContents whats on my {List} list
-ListContents whats in my {List} list
-ListContents whats in the {List} list
-ListContents read out my {List} list
-ListContents read out the contents of my {List} list
-ListContents tell me whats on my {List} list
-ListContents tell me the list of things on my {List} list
-GetLists tell me what lists I have
-GetLists to tell me what lists I have
-GetLists what lists I have
-GetLists what lists there are
-GetLists what lists are there
-GetLists what are my lists
-GetLists what lists are available
+GetBBCNews to play the {FeedName} news
+GetBBCNews to play the {FeedName} headlines
+GetBBCNews for the {FeedName} news
+GetBBCNews for the {FeedName} headlines
+GetBBCNews what's in the {FeedName} news
+GetBBCNews what are the {FeedName} headlines
+GetBBCNews for {FeedName} headlines
+GetBBCNews for {FeedName} news
+GetBBCNews for {FeedName}
+GetBBCNews to play {FeedName}
+GetBBCNews {FeedName}
