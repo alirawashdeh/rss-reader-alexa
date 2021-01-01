@@ -1,6 +1,10 @@
-![RSS Reader for Alexalogo](/alexa-rss-small.jpg)
+![RSS Reader for Alexalogo](alexa-rss-small.jpg)
 
 # RSS Reader for Alexa
+
+### NOTE: This repository is not maintained, and was created for fun back in 2017. See [alexa/skill-sample-nodejs-feed](https://github.com/alexa/skill-sample-nodejs-feed) for a more up-to-date sample project.
+
+This repo contains
 
 An Alexa Skill that fetches headlines from various BBC News RSS feeds. For example, "Alexa, ask RSS Reader for the technology news"
 
