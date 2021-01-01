@@ -4,8 +4,6 @@
 
 ### NOTE: This repository is not maintained, and was created for fun back in 2017. See [alexa/skill-sample-nodejs-feed](https://github.com/alexa/skill-sample-nodejs-feed) for a more up-to-date sample project.
 
-This repo contains
-
 An Alexa Skill that fetches headlines from various BBC News RSS feeds. For example, "Alexa, ask RSS Reader for the technology news"
 
 [![RSS Reader for Alexa Video](https://img.youtube.com/vi/rS3Km9BU-_c/0.jpg)](https://www.youtube.com/watch?v=rS3Km9BU-_c)
